@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         //when it is true, it generates step def
         //when it is false, it executes the code
         dryRun = false,
-        tags="@emptyUser",
+        //tags="@incorrectPass",
         plugin={"pretty","html:target/cucumber.html","json:target/cucumber.json"}
 
 

@@ -126,6 +126,8 @@ public class CommonMethods extends PageInitializer {
 
 
 
+    public static final int randomID = (int)(Math.random() * 1000000 - Math.random()*3 + Math.random());
+
 
 
 

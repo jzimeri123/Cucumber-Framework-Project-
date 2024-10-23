@@ -37,7 +37,7 @@ public WebElement emptyFirstNameErrorMsg;
 @FindBy(xpath = "//span[@for='lastName']")
 public WebElement emptyLastNameErrorMsg;
 
-@FindBy(xpath = "//div[@class='inner']/script" )
+@FindBy(xpath = "//div[contains(text(),'Failed To Save: Employee Id Exists')]" )
 public WebElement employeeIDExistsErrorMsg;
 
 
